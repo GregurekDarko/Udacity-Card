@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <!-- text size -->
+
+    <dimen name="headingTextSize">24sp</dimen>
+    <dimen name="subheadingTextSize">16sp</dimen>
+    <dimen name="bodyTextSize">14sp</dimen>
+    <!--margin and padding -->
+    <dimen name="screenEdgeLeft">14dp</dimen>
+    <dimen name="iconsPadding">30dp</dimen>
+    <dimen name="screenEdgeRight">14dp</dimen>
+    <dimen name="headingMarginTop">5dp</dimen>        <!--portrait and landscape -->
+    <dimen name="subHeadingMarginTop">5dp</dimen>      <!--portrait and landscape -->
+    <dimen name="subHeadingMarginBottom">18dp</dimen> <!--portrait and landscape -->
+    <!--height and width -->
+
+
+    <dimen name="listItemsHeight">48dp</dimen>
+
+</resources>

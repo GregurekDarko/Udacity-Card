@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Hello Android</string>
+    <string name="company">Udacity</string>
+    <string name="subHeading">Lifelong Learning and the Future of Work</string>
+    <string name="address">2465 Latham St., MountainView, CA94043</string>
+    <string name="phonNum">650-555-5555</string>
+    <string name="url">www.udacity.com</string>
+    <string name="bussinessImage">Bussines Image</string>
+</resources>

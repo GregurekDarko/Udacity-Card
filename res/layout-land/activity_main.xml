@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#2196F3">
+
+
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/screenEdgeLeft"
+            android:layout_marginTop="@dimen/headingMarginTop"
+            android:text="@string/company"
+            android:textColor="@color/colorText"
+            android:textSize="@dimen/headingTextSize"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/screenEdgeLeft"
+            android:layout_marginTop="@dimen/subHeadingMarginTop"
+            android:text="@string/subHeading"
+            android:textColor="@color/colorText"
+            android:textSize="@dimen/subheadingTextSize"
+            android:layout_marginBottom="18dp"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        
+        <ImageView
+           android:layout_width="220dp"
+           android:layout_height="220dp"
+           android:scaleType="centerCrop"
+           android:src="@drawable/udacity_is_looking_good"
+            android:contentDescription="@string/bussinessImage"
+            android:layout_marginLeft="@dimen/screenEdgeLeft"/>
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/address"
+            android:textSize="@dimen/bodyTextSize"
+            android:textColor="@color/colorText"
+            android:autoLink="map"
+            android:drawableLeft="@drawable/ic_place_white_18dp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="@dimen/screenEdgeLeft"
+            android:drawablePadding="@dimen/iconsPadding"
+            android:height="@dimen/listItemsHeight"
+            android:textStyle="italic"
+            android:layout_marginRight="@dimen/screenEdgeRight"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/phonNum"
+            android:textSize="@dimen/bodyTextSize"
+            android:autoLink="phone"
+            android:drawableLeft="@drawable/ic_phone_white_18dp"
+            android:gravity="center_vertical"
+            android:textColor="@color/colorText"
+            android:textStyle="italic"
+            android:layout_marginLeft="@dimen/screenEdgeLeft"
+            android:drawablePadding="@dimen/iconsPadding"
+            android:height="@dimen/listItemsHeight"
+            android:textColorLink="@color/linkColor"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/url"
+            android:textSize="@dimen/bodyTextSize"
+            android:autoLink="web"
+            android:textColor="@color/colorText"
+            android:drawableLeft="@drawable/ic_web_white_18dp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="@dimen/screenEdgeLeft"
+            android:drawablePadding="@dimen/iconsPadding"
+            android:height="@dimen/listItemsHeight"
+            android:textStyle="italic"
+            android:textColorLink="@color/linkColor"/>
+
+</LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
+
+</ScrollView>
